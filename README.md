@@ -35,7 +35,4 @@ This project is useful for **resume screening, personal portfolios, and intervie
 4. User query retrieves relevant chunks  
 5. LLM generates an answer using retrieved context  
 
----
-
-## 📂 Project Structure
 
