@@ -1,50 +1,41 @@
-🤖 Resume-Based AI Chatbot (RAG)
+# 📄 Resume-Based AI Chatbot (RAG)
 
-This project is a resume-based AI chatbot built to explore how Retrieval-Augmented Generation (RAG) can be used to answer questions accurately and responsibly.
+A **Resume-Based AI Chatbot** built using **Retrieval-Augmented Generation (RAG)** that allows users to ask questions about a resume and receive accurate, context-aware answers grounded strictly in the resume content.
 
-The core idea is simple:
-If the information is not present in the resume, the chatbot should not guess.
+This project is useful for **resume screening, personal portfolios, and interview preparation**.
 
-💡 What This Project Does
+---
 
-The chatbot can:
+## 🚀 Features
 
-Answer questions about my skills, education, and experience
+- 📤 Upload and process resumes (PDF/Text)
+- 🔍 Semantic search over resume content
+- 💬 Natural language Q&A
+- 🧠 Retrieval-Augmented Generation (RAG)
+- ⚡ Accurate responses based only on resume data
 
-Generate short summaries of my resume
+---
 
-Respond normally to greetings and casual questions
+## 🛠️ Tech Stack
 
-Clearly say “I don’t have that information” when details are not available (e.g., GPA, address, date of birth)
+- **Python**
+- **LangChain**
+- **Vector Database (FAISS / Chroma)**
+- **OpenAI / LLM API**
+- **VS Code**
+- **Git & GitHub**
 
-This helps demonstrate how hallucination-safe AI systems can be designed.
+---
 
-🛠️ Tech Stack
+## 🧠 How It Works
 
-Python
+1. Resume is loaded and split into chunks  
+2. Text chunks are converted into embeddings  
+3. Embeddings are stored in a vector database  
+4. User query retrieves relevant chunks  
+5. LLM generates an answer using retrieved context  
 
-LangChain
+---
 
-LangGraph (conversation state & memory)
+## 📂 Project Structure
 
-ChromaDB (vector database)
-
-OpenAI (LLM)
-
-Streamlit (chat-style UI)
-
-🧠 Why I Built This
-
-I built this project to gain hands-on experience with:
-
-RAG pipelines
-
-Vector databases and embeddings
-
-Managing conversation context
-
-Designing guardrails to prevent hallucinations
-
-Building simple, reliable AI applications
-
-The focus was on correctness and trust, not just impressive outputs.
