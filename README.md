@@ -33,6 +33,14 @@ This project is useful for **resume screening, personal portfolios, and intervie
 2. Text chunks are converted into embeddings  
 3. Embeddings are stored in a vector database  
 4. User query retrieves relevant chunks  
-5. LLM generates an answer using retrieved context  
+5. LLM generates an answer using retrieved context
 
 
+---
+
+## 👤 Author
+
+**Aarushi Kotwani**
+Data-driven professional passionate about solving real-world problems with scalable, data-centric solutions.
+
+- GitHub: [@aarushikot](https://github.com/aarushikot)
